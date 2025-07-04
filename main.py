@@ -139,7 +139,7 @@ st.markdown("""
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         border-radius: 15px;
         padding: 1.5rem;
-        width:15vw;
+        width:25vw;
         color: white;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         border-left: 5px solid #00d2ff;
