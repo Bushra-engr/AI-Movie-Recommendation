@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Load environment variables
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyA2v2K4O1IL-xi21dMOOApm0QVXISYD20c"
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(
