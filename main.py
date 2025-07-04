@@ -139,7 +139,7 @@ st.markdown("""
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         border-radius: 15px;
         padding: 1.5rem;
-        width:35vw;
+        width:50vw;
         color: white;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         border-left: 5px solid #00d2ff;
@@ -332,15 +332,15 @@ lang = st.sidebar.selectbox("Choose your preferred language:",
     ("Hindi", "English", "Tamil", "Telugu", "Urdu", "French", "German", "Spanish"))
 
 genre = st.sidebar.multiselect("Select Genre: *", 
-    ("Horror", "Action", "Thriller", "Comedy", "Romantic", "Sci-Fi", "Family", "Drama", "Adventure"))
+    ("Horror", "Action", "Thriller", "Comedy", "Romantic", "Sci-Fi", "Family", "Drama", "Adventure","Animated","kids"))
 
 type = st.sidebar.radio("Select Type:", ("Movies", "Series", "Both"))
 
 formula = st.sidebar.selectbox("Select Formula Type:", 
-    ("Hollywood", "Bollywood", "Tollywood", "Korean", "Turkish", "Pakistani"))
+    ("Hollywood", "Bollywood", "Tollywood", "Korean", "Turkish","chinese","Japenese"))
 
 platform = st.sidebar.multiselect("Select Platform: *", 
-    ("YouTube", "Netflix", "Prime Video", "Disney+", "Jio Cinema", "Z5", "Hulu", "HBO Max","AppleTv"))
+    ("YouTube", "Netflix", "Prime Video", "Disney+", "Jio Cinema", "Z5", "Hulu", "HBO Max","Apple Tv"))
 
 mood = st.sidebar.radio("Your Mood:", ("Happy", "Sad", "Neutral", "Excited", "Relaxed"))
 
