@@ -1,0 +1,14 @@
+[theme]
+base="dark"  # optional: can be "light" or "dark"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showSidebarNavigation = false
+
+[ui]
+hideTopBar = true
