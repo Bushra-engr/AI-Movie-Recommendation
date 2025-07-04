@@ -47,7 +47,17 @@ If type is "Both":
 ])
 
 # Streamlit UI Config
-st.set_page_config(page_title="Movie/Series Recommender", layout="wide")
+st.set_page_config(
+    page_title="Movie/Series Recommender",
+    page_icon="🎬",  # optional emoji icon
+    layout="wide",
+    menu_items={
+        'Get Help': None,
+        'Report a Bug': None,
+        'About': None
+    }
+)
+
 
 # Enhanced CSS for better UI with responsive design
 st.markdown("""
