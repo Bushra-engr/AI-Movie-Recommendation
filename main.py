@@ -187,7 +187,7 @@ st.markdown("""
         box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
     
-    .loading h3 {
+    .loading h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
@@ -369,7 +369,7 @@ if submit:
         with st.container():
             st.markdown("""
             <div class="loading">
-                <h1>🤖 AI is analyzing your preferences...</h1>
+                <h2>🤖 AI is analyzing your preferences...</h2>
                 <p>Please wait while we generate personalized recommendations for you.</p>
             </div>
             """, unsafe_allow_html=True)
