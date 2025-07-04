@@ -57,6 +57,13 @@ st.set_page_config(
         'About': None
     }
 )
+# Add custom CSS to hide the GitHub icon
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 
 # Enhanced CSS for better UI with responsive design
