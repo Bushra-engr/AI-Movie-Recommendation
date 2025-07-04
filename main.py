@@ -35,6 +35,7 @@ If type is "Both":
 - Give each item a very short 2-line explanation.
 - Return the results in **bullet format under clear headers**.
 - Strictly no use of emojis.
+- also make title of movies nd series bolder more
 """),
     ("user", "I want to watch something in {lang}. "
              "I'm in the mood for {genre}. "
